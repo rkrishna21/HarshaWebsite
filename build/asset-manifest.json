@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/HarshaWebsite/static/css/main.52c23c5f.css",
+    "main.js": "/HarshaWebsite/static/js/main.54404a8c.js",
+    "static/media/banner2.jpg": "/HarshaWebsite/static/media/banner2.52c4015aa7f865c08b4b.jpg",
+    "static/media/aboutus-whoweare.jpg": "/HarshaWebsite/static/media/aboutus-whoweare.fa69488aecc515ca5441.jpg",
+    "static/media/banner1.jpg": "/HarshaWebsite/static/media/banner1.66b15239c50feda4a5fa.jpg",
+    "static/media/aboutus-banner.jpg": "/HarshaWebsite/static/media/aboutus-banner.52c30c66538dbe9c3e91.jpg",
+    "static/media/banner3.jpg": "/HarshaWebsite/static/media/banner3.a8705306c724b678d8e6.jpg",
+    "static/media/ServiceImg.jpg": "/HarshaWebsite/static/media/ServiceImg.e567ee87dea4c5097360.jpg",
+    "static/media/aboutus-background.jpg": "/HarshaWebsite/static/media/aboutus-background.747a1c8711dddc355c9c.jpg",
+    "static/media/logo.jpg": "/HarshaWebsite/static/media/logo.0a9315a252d63fbe0a02.jpg",
+    "index.html": "/HarshaWebsite/index.html",
+    "main.52c23c5f.css.map": "/HarshaWebsite/static/css/main.52c23c5f.css.map",
+    "main.54404a8c.js.map": "/HarshaWebsite/static/js/main.54404a8c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52c23c5f.css",
+    "static/js/main.54404a8c.js"
+  ]
+}
