@@ -1,0 +1,277 @@
+/* General styles for the home page */
+.home {
+  padding: 0;
+}
+
+/* Slideshow container styles */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: opacity 1s ease;
+}
+
+.mySlides img {
+  width: 100%;
+  max-height: 700px;
+}
+
+.active {
+  display: block;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Banner text styles */
+.banner-text {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+}
+
+.banner-text h2 {
+  font-size: 65px;
+  margin-bottom: 20px; /* Adjust the bottom margin to reduce the gap */
+  border-bottom: 2px solid red; /* Add a red underline */
+  display: inline-block;
+  line-height: 1.2; /* Adjust line height for better spacing */
+}
+
+.banner-text p {
+  font-size: 15px;
+  margin-top: 0; /* Remove the top margin */
+  margin-bottom: 20px; /* Remove the bottom margin if not needed */
+}
+
+/* Learn more button styles */
+.learn-more {
+  background-color: transparent;
+  color: white;
+  border: 1px solid red;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: red;
+}
+
+.learn-more:hover {
+  opacity: 0.7;
+  color: white; /* Text color on hover */
+  border-color: red; /* Border color on hover */
+}
+
+/* Card section styles */
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px; /* Increased margin to add more space above the cards */
+  padding-left: 20px; /* Added padding to the left */
+  padding-right: 20px; /* Added padding to the right */
+}
+
+.services-heading {
+  text-align: center; /* Center align heading */
+  width: 100%;
+}
+
+.card {
+  width: 30%;
+  padding: 20px;
+  background-color: #333; /* Change card background color */
+  color: white;
+  text-align: center;
+  margin-bottom: 40px; /* Increased margin to add more gap between cards */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.card-icon {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.card i {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Cards stack vertically on smaller screens */
+  }
+}
+
+/* Stats section styles */
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 40px; /* Added margin top */
+  background-color: rgb(143, 208, 212); /* Background color */
+  padding: 20px; /* Padding */
+  color: white; /* Text color */
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px; /* Margin around each card */
+  text-align: center;
+}
+
+.stat-icon {
+  font-size: 50px; /* Icon size */
+  margin-bottom: 10px; /* Margin bottom */
+}
+
+.stat-card h3 {
+  font-size: 40px; /* Heading size */
+  margin: 0; /* Remove margin */
+}
+
+.stat-card p {
+  font-size: 18px; /* Paragraph size */
+  margin: 0; /* Remove margin */
+}
+
+@media (max-width: 768px) {
+  .stat-card {
+    width: 100%; /* Cards stack vertically on smaller screens */
+    margin-bottom: 20px; /* Adjusted margin for smaller screens */
+  }
+}
+
+/* Why we are section styles */
+.why-we-are-section {
+  text-align: center; /* Center align text */
+  margin-top: 40px; /* Added margin top */
+  padding: 20px; /* Padding */
+}
+
+.why-we-are-section h2 {
+  font-size: 36px; /* Heading size */
+  margin-bottom: 20px; /* Margin bottom */
+}
+
+.why-we-are-section p {
+  font-size: 15px; /* Paragraph size */
+  line-height: 1.6; /* Line height */
+  margin-bottom: 20px; /* Margin bottom */
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Technology section styles */
+.who-we-are-section {
+  padding: 20px; /* Padding */
+}
+
+.who-we-are-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.who-we-are-section-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.who-we-are-section-text h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.who-we-are-section-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.who-we-are-section-text p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.who-we-are-section-images {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.who-we-are-section-images img {
+  width: 100%;
+  max-height: 500px;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .technology-images img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+
+/* Technology section styles */
+.technology-section {
+  background-color: #ccc; /* Background color */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px; /* Padding */
+}
+
+.technology-section img {
+  width: 80px; /* Image width */
+  height: 80px; /* Image height */
+  margin: 10px; /* Margin around images */
+}
+
+@media (max-width: 768px) {
+  .technology-section img {
+    width: 80px; /* Reduced image width for smaller screens */
+    height: 80px; /* Reduced image height for smaller screens */
+  }
+}
